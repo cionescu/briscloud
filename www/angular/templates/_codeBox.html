@@ -1,0 +1,15 @@
+<div>
+  <textarea id="codeInput" rows="4" cols="40"></textarea>
+</div>
+<button type="submit" ng-click="submit()" class="btn btn-info">
+  Execute
+</button>
+<select name="language_select" ng-model="language_type" class="form-control language-select">
+  <option ng-repeat="option in languages" value="{{option}}">{{option}}</option>
+</select>
+<span class="status {{response.status}}" ng-show{{response.status}}>{{response.status | capitalize}}</span>
+<div>
+  <pre class="response-container">{{response.result}}
+    <div class="dots-loader" ng-show="response.status == 'pending'"></div>
+  </pre>
+</div>

@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "homepage": "https://github.com/cionescu/Cloud",
+  "authors": [
+    "asomanescu <as13118@my.bristol.ac.uk>"
+  ],
+  "description": "cloud",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "angular": "*",
+    "angular-route": "*",
+    "codemirror": "*",
+    "bootstrap": "*"
+  }
+}
