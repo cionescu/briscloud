@@ -3,7 +3,7 @@
 app.directive('codeinput', function(){
   return {
     restrict: 'E',
-    templateUrl: '/www/angular/templates/_codeBox.html',
+    templateUrl: '/briscloud/www/angular/templates/_codeBox.html',
     scope: {
       languages: '=',
       code: '='

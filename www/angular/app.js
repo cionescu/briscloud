@@ -4,7 +4,7 @@ app.config([
   '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     // $locationProvider.html5Mode(true);
     return $routeProvider.when("/", {
-      templateUrl: "www/angular/templates/_welcome.html",
+      templateUrl: "briscloud/www/angular/templates/_welcome.html",
       controller: 'clientController'
     }).otherwise({
       templateUrl: 'www/angular/templates/_welcome.html',
